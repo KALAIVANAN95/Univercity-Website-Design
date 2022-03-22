@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design </title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">-->
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+
+            <!--<a href="index.html"><img src="logo.png" alt="logoimage"></a>-->
+            <h2 class="logo">KALAI-FITA</h2>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Our Certificate & Online Programs For 2022</h1>
+    </section>
+    <!--Blog contect page-->
+
+    <section class="blog-content">
+
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/certificate.jpg">
+                <h2>Our Certificate & Online Programs For 2022</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero quam repellat tempora animi
+                    reprehenderit ad fugiat nesciunt maxime porro, impedit aspernatur possimus consectetur autem!
+                    Pariatur facere sequi quae odit?</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam asperiores velit earum voluptates
+                    commodi quae tempore dicta? Sapiente facilis iure ullam, veritatis nulla, ipsa facere tenetur,
+                    cumque commodi odit labore nisi. Mollitia nam quod impedit! Deleniti consectetur nemo officiis
+                    molestiae architecto harum repudiandae minus quibusdam quam aliquam dicta, porro consequuntur
+                    tempore, animi, eveniet omnis vel autem? Cumque velit voluptas nobis!</p>
+                <br>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero pariatur, molestias consectetur
+                    optio, molestiae aperiam unde culpa blanditiis perferendis eveniet, possimus itaque repudiandae
+                    impedit nihil amet explicabo! Odio sapiente rem itaque? Nisi atque sit modi ullam officiis enim
+                    error rerum laudantium, quibusdam eum dignissimos excepturi rem possimus consectetur quos amet vitae
+                    dolore hic exercitationem voluptas repudiandae culpa qui. Nulla voluptatibus, mollitia rerum sint
+                    maxime alias necessitatibus beatae dolore numquam aliquam nisi aspernatur ut, illo iste quos
+                    expedita sapiente at. Reprehenderit?</p>
+                <br>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet ut quo cumque molestias corporis
+                    doloremque velit veritatis! Odit suscipit ipsam assumenda iure commodi, quasi perferendis.</p>
+
+
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your Comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+
+                <div>
+                    <span>Data Science</span>
+                    <span>28</span>
+                </div>
+
+                <div>
+                    <span>Machine Learning</span>
+                    <span>15</span>
+                </div>
+
+                <div>
+                    <span>Coumpter Science</span>
+                    <span>50</span>
+                </div>
+
+                <div>
+                    <span>Auto CAD</span>
+                    <span>25</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>18</span>
+                </div>
+                <div>
+                    <span>Journalism</span>
+                    <span>22</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--This is footer-->
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima dicta voluptas error perspiciatis,
+            <br>nostrum id quos sint expedita voluptate quisquam consectetur in. Repellat, molestias quo.
+        </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"> </i> by KALAI-FITA</p>
+    </section>
+
+    <!--JavaScript for Toggle Menu-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+
+</body>
+
+</html>
